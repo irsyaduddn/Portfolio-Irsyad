@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">PORTFOLIO.</div>
+                <ul class="nav-links">
+                    <li><a href="#about"><span class="section-number">01.</span>About</a></li>
+                    <li><a href="#experience"><span class="section-number">02.</span>Experience</a></li>
+                    <li><a href="#education"><span class="section-number">03.</span>Education</a></li>
+                    <li><a href="#certificate"><span class="section-number">04.</span>Certificates</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content fade-in">
+                <span class="hero-subtitle">Hi, my name is</span>
+                <h1>Creative Developer.<br><span class="gradient-text">I build things for the web.</span></h1>
+                <p class="hero-description">
+                    I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on creating accessible, human-centered products.
+                </p>
+                <a href="#experience" class="btn btn-primary">Check out my work!</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="section-number">01.</span>About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Hello! My name is [Your Name] and I enjoy creating things that live on the internet. My interest in web development started back in 2020 when I decided to try editing custom Tumblr themes — turns out hacking together HTML & CSS is a lot of fun!</p>
+                        <p>Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences.</p>
+                        <p>Here are a few technologies I've been working with recently:</p>
+                        <ul class="skills-list">
+                            <li>JavaScript (ES6+)</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>TypeScript</li>
+                            <li>HTML5 & CSS3</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <!-- Placeholder for Image -->
+                    <div class="about-img-wrapper">
+                        <!-- Using a solid color placeholder since I can't generate a real photo of the user -->
+                        <div style="background: var(--bg-card); width: 100%; aspect-ratio: 1/1; border-radius: 8px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--text-accent);">
+                           <span style="color: var(--text-accent); font-size: 3rem;">IMG</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="section-number">02.</span>Where I've Worked</h2>
+                </div>
+                <div class="card-grid">
+                    <!-- Experience Item 1 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Senior Engineer</h3>
+                                <h4 class="card-subtitle">Tech Upgrade Corp</h4>
+                            </div>
+                            <span class="card-date">Jan 2024 - Present</span>
+                        </div>
+                        <ul>
+                            <li>Write modern, performant, maintainable code for a diverse array of client and internal projects</li>
+                            <li>Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify</li>
+                            <li>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Experience Item 2 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Web Developer</h3>
+                                <h4 class="card-subtitle">Creative Studio</h4>
+                            </div>
+                            <span class="card-date">Jun 2022 - Dec 2023</span>
+                        </div>
+                        <ul>
+                            <li>Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</li>
+                            <li>Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness</li>
+                            <li>Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="section-number">03.</span>Education</h2>
+                </div>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Bachelor of Science in Computer Science</h3>
+                                <h4 class="card-subtitle">University of Technology</h4>
+                            </div>
+                            <span class="card-date">2018 - 2022</span>
+                        </div>
+                        <p style="color: var(--text-secondary);">Relevant Coursework: Data Structures & Algorithms, Web Development, Database Management Systems, Software Engineering, Operating Systems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificate Section -->
+        <section id="certificate" class="fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="section-number">04.</span>Certifications</h2>
+                </div>
+                <div class="cert-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card">
+                        <div class="cert-icon">🏆</div>
+                        <h3 class="cert-title">AWS Certified Solutions Architect</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                    </div>
+                    <!-- Cert 2 -->
+                    <div class="cert-card">
+                        <div class="cert-icon">📜</div>
+                        <h3 class="cert-title">Meta Front-End Developer</h3>
+                        <p class="cert-issuer">Coursera / Meta</p>
+                    </div>
+                    <!-- Cert 3 -->
+                    <div class="cert-card">
+                        <div class="cert-icon">🎓</div>
+                        <h3 class="cert-title">Google UX Design Certificate</h3>
+                        <p class="cert-issuer">Google</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Designed & Built by [Your Name]</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
